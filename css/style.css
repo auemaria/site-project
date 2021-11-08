@@ -18,11 +18,12 @@ body{
     width: 100%;
     height: 36px;
     margin-top: 79px;
-    margin-right: 170px;
-    margin-left: 170px;
+    padding-right: 170px;
+    padding-left: 170px;
     display: flex;
     justify-content: flex-start;
     flex-direction: row;
+    transition: background 0.1s ease;
 }
 .logo-image{
     width: 36px;
@@ -66,6 +67,7 @@ body{
     box-shadow: -11.09px 18.13px 36.6483px rgba(242, 153, 74, 0.13);
     display: flex;
     justify-content: center;
+    overflow: hidden;
     
 }
 .button-header-left-1{
@@ -76,6 +78,7 @@ body{
     height: 36px;
     display: flex;
     justify-content: center;
+    overflow: hidden;
 }
 @font-face{
     font-family: "Rubik"; /* Гарнитура шрифта */
@@ -115,10 +118,11 @@ body{
     margin-top: 219px;
 }
 .block-brand__block-info{
+    position: absolute;
     width: 531px;
     height: 580px;
     margin-left: 170px;
-    margin-top: 143px;
+    margin-top: 250px;
     
 }
 @font-face{
@@ -132,6 +136,7 @@ body{
     font-weight: bold;
     font-size: 44px;
     line-height: 50px;
+    cursor: default;
 }
 .block-brand__info-project{
     width: 468px;
@@ -141,6 +146,7 @@ body{
     line-height: 22px;
     color: #8476AA;
     margin-top: 19px;
+    cursor: default;
 }
 .block-brand__buttons-header{
     display: flex;
@@ -155,12 +161,15 @@ body{
     box-shadow: -11.09px 18.13px 36.6483px rgba(242, 153, 74, 0.13);
     border-radius: 3px;
     margin-right: 20px;
+    overflow: hidden;
 }
 .button-brand{
     width: 157px;
     border: 1px solid #F2994A;
     box-sizing: border-box;
     border-radius: 4px;
+    overflow: hidden;
+    
 }
 .button-brand-1 a{
     display: block;
@@ -172,7 +181,7 @@ body{
     color: #FFFFFF;
     font-weight: 500;
     font-size: 12px;
-    margin-top: 15px;
+    padding-top: 15px;
 }
 .button-brand a{
     display: block;
@@ -184,7 +193,8 @@ body{
     color: #F2994A;
     font-weight: 500;
     font-size: 12px;
-    margin-top: 15px;
+    padding-top: 15px;
+    
 }
 .block-brand__info-vid{
     width: 540px;
@@ -224,4 +234,17 @@ body{
     font-size: 14px;
     line-height: 22px;
     color: #6D6D78;
+}
+.header-top_sticky_true{
+    height: 42px;
+    position: fixed;
+    top: 0;
+    margin-top: 0;
+    padding-top: 3px;
+    padding-right: 170px;
+    padding-left: 170px;
+    margin-bottom: 100px;
+    z-index: 20;
+    background: rgba(38, 23, 83, 0.9);
+    transition: background 0.3s ease;
 }
