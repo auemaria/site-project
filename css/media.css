@@ -16,7 +16,7 @@
 }
 @media (max-width: 570px){
     body{
-        width: 366px;
+        width: 100%;
     }
     .main-page{
         width: 100%;
