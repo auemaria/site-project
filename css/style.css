@@ -145,7 +145,7 @@ body{
     cursor: default;
 }
 .block-brand__info-project{
-    width: 468px;
+    width: 100%;
     height: 44px;
     font-family: Gilroy-SemiBold;
     font-size: 18px;
@@ -156,7 +156,7 @@ body{
 }
 .block-brand__buttons-header{
     display: flex;
-    width: 334px;
+    width: 100%;
     height: 46px;
     margin-top: 40px;
     flex-direction: row;
@@ -203,16 +203,17 @@ body{
     
 }
 .block-brand__info-vid{
-    width: 540px;
+    width: 100%;
     height: 80px;
     margin-top: 60px;
     display: flex;
     flex-direction: row;
 }
 .video-pic{
-    width: 140px;
+    width: 100%;
     height: 80px;
     background-image: url(../img/Picture.png);
+    background-size: cover;
 }
 .block-brand__info-vid a{
     display: flex;

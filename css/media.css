@@ -14,3 +14,40 @@
         width: 960px;
     }
 }
+@media (max-width: 570px){
+    body{
+        width: 366px;
+    }
+    .block-brand__block-photo{
+        left:0;
+        width: 100%;
+        opacity: 0.25;
+    }
+    .block-brand__block-info{
+        width: 340px;
+        margin-left: 10px;
+    }
+    .block-brand__block-info-main{
+        width: 340px;
+    }
+    .block-brand__info-name{
+        font-size: 35px;
+    }
+    .block-brand__info-project{
+
+    }
+    .video-name-info{
+        font-size: 17px;
+        line-height: 18px;
+    }
+    .video-watch{
+        margin-top: 3px;
+    }
+    .buttons-header{
+        margin-left: 10px;
+    }
+    .header-top{
+        padding-left: 10px;
+        padding-right: 0;
+    }
+}
