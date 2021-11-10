@@ -18,6 +18,9 @@
     body{
         width: 366px;
     }
+    .main-page{
+        width: 100%;
+    }
     .block-brand__block-photo{
         left:0;
         width: 100%;
@@ -49,5 +52,8 @@
     .header-top{
         padding-left: 10px;
         padding-right: 0;
+    }
+    .links-row{
+        display: none;
     }
 }
